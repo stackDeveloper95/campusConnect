@@ -1,0 +1,33 @@
+// 🌤 Light Theme Backgrounds
+$body-bg: #fce7dd; // light peach
+$body-color: #2b2117; // dark brown-black text
+$card-bg: #fffaf5; // off-white card background
+
+// 🌈 Primary Colors (Peach & Accent)
+$primary: #cd6731; // burnt orange (used for badges, highlights)
+// $primary-hover: darken($primary, 10%); // darker shade on hover
+
+// 🟠 Tab & Accent Highlight
+$warning: #f6d3a5; // soft yellow-orange for tabs
+$light: #fffaf5; // reused for light cards or UI elements
+
+// 🖤 Dark & Muted Tones
+$secondary: #7f6e60; // muted brown (subtext)
+$dark: #2b2117; // base dark
+$border-color: #f5d3c0; // soft border color
+
+// 🌐 Info, Danger, Success remain default
+$success: #198754;
+$danger: #dc3545;
+$info: #0dcaf0;
+
+// 🔗 Link Color
+$link-color: lighten($primary, 10%);
+
+// 🖊 Fonts & Inputs
+$font-family-base: 'Poppins', sans-serif;
+$input-bg: #fffaf5;
+$input-color: #fe850d;
+
+// ✅ Bootstrap Import
+@import "../node_modules/bootstrap/scss/bootstrap";

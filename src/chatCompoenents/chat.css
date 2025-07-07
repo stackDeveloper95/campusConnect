@@ -1,0 +1,72 @@
+#chats:hover {
+    background: #da8b61;
+    color: white;
+
+
+}
+
+.chatSelected {
+    background: #da8b61;
+    color: white;
+}
+
+/* Scrollbar Track */
+.chat-scroll::-webkit-scrollbar {
+    width: 6px;
+    /* Vertical scrollbar width */
+    height: 4px;
+    /* Horizontal scrollbar height */
+}
+
+/* Scrollbar Thumb (the draggable part) */
+.chat-scroll::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 10px;
+}
+
+/* Scrollbar Track Background */
+.chat-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Optional: Smooth hover effect */
+.chat-scroll::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+@keyframes fallIn {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    90% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
+
+.fall-in-text {
+    animation: fallIn 7s ease-in-out infinite;
+}
+
+.online-indicator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #28a745;
+    border: 2px solid white;
+    border-radius: 50%;
+}
